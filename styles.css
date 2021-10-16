@@ -1,0 +1,14 @@
+/* Medidas absolutas */
+div {
+    font-size: 10in;
+    font-size: 10cm;
+    font-size: 10mm;
+    font-size: 10pt;
+    font-size: 10pc;
+}
+
+/* Medidas Relativas
+h1 {
+    font-size: 10in;
+    
+}

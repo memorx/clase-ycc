@@ -1,0 +1,61 @@
+       /* Sintaxis - Selector { propiedad: valor } */
+        
+        /* 1. Selector universal */
+        * {
+            color: green;
+        }
+        
+        /* 2. Selector de elemento */
+        h3 {
+            color: red;
+        }
+
+        li {
+            color: blue;
+        }
+
+        span {
+            color: violet;
+        }
+
+        ul {
+            color: violet;
+        }
+
+        /* 3. Selector de padre a hijo - de cascada */
+        ul li {
+            color: pink
+        }
+
+        ul li div {
+            color: yellow;
+        }
+
+        div ul li span {
+            color:sienna;
+        }
+        
+        /* 4. Selector de clase*/
+        .texto_verde_lima {
+            color:lime
+        }
+
+        .texto_tamanio_gigante {
+            font-size: 100px;
+        }
+
+        .articulo_de_cocina {
+            background-color: magenta;
+            border: 5px solid black;
+            box-shadow: 20px 10px 10px blue;
+        }
+
+        .border_rojo {
+            border: 5px solid red;
+        }
+
+        /* 5. Selector por id */
+        #nintendo_switch {
+            border: 10px dotted green;
+        }
+
