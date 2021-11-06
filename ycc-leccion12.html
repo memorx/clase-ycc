@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yucatan leccion 13</title>
+</head>
+<body>
+    
+    <script>
+        console.log("*********** Leccion 13 *************");
+        // var a = 100
+        // var b = 200
+
+        // console.log(a != b); // Es la variable a diferente a b? ==> true
+
+        // console.log(a == a && b == b);
+        // console.log(a == a || b == b);
+
+        // Condicional - condicionar que cogigo vamos a ejecutar
+        // Resultado de la comparasion de dos variables
+
+        // if (condicion) { Codigo extra a ejecutar si la codicion es verdadera }
+        // var a = 10;
+        // var b = 20;
+        // var c = 30;
+        // var d = 30;
+
+        // if (a == a) { // => 10 == 10 // verdadero
+        //     console.log("Ejemplo 1: Las variables tienen el mismo valor");
+        // };
+
+        // if (a == b) { // => 10 == 10 // falso
+        //     console.log("Ejemplo 2: Las variables tienen el mismo valor");
+        // };
+
+        // if (c != c) { // falso 
+        //     console.log("Ejemplo 3: Las variables son diferentes");
+        // }
+
+        // if (a != a) { // falso
+        //     console.log("Ejemplo 4: Las variables son diferentes");
+        // }
+
+        // if (a != b) { // true 
+        //     console.log("Ejemplo 5: Las variables son diferentes");
+        // }
+
+        // var captcha = "abced";
+        // var valor_del_usuario_de_captcha = "ghsdjlksajfd";
+
+        // if (captcha == valor_del_usuario_de_captcha) { // falso
+        //     alert("Bienvenido a nuestra pagina web");
+        // } else {
+        //     alert("Captcha incorrecto, intentalo de nuevo")
+        // }
+
+        // var vida_personaje_fornite = 0;
+        
+        // if (vida_personaje_fornite > 0) {
+        //     alert("Sigue con vida");
+        // } else {
+        //     alert("Game over - juego terminado");
+        // }
+        
+        //var vida_personaje = 0;
+        //var pocion_resucitar = 0;
+
+        // Condicional nuestro personaje puede seguir jugando? // Operadores logicos
+        // para que siga jugando: la vida del personaje debe ser mayor que 0  O que tenga al menos una pocion de resucitacion
+        // if (vida_personaje > 0 || pocion_resucitar > 0) { 
+        //     alert("Sigue vivo");
+        // } else {
+        //     alert("Game over");
+        // }
+
+        //  var vida_personaje = 100;
+        //  var armadura = 0;
+
+        // // // para que personaje siga jugando, tengo que tener algo de vida (>0) Y tengo que tener algo de armadura
+        // if (vida_personaje > 0 || armadura > 0) { // falso
+        //     alert("Sigue vivo");
+        // } else {
+        //     alert("Game Over");
+        // }
+
+        // buenos dias, buenas tardes, buenas noches
+        // var hora_dia = 18 // 0 - 24 
+        // // 5 a 11 buenos dias
+        // // 12 a 18 buenas tardes
+        // // 19 a 5am buenas noches
+
+        // if (hora_dia >= 5 && hora_dia <= 11 ){
+        //     console.log("Buenos dias");
+        // } else if (hora_dia >= 12 && hora_dia <= 18 ) {
+        //     console.log("Buenas tardes");
+        // } else {
+        //     console.log("Buenas noches");
+        // }
+
+        // cuando 5 puntos o menos de vida aparece una alerta 
+        var vida_personaje = 0
+        var pocion_resucitacion = 0;
+
+        // Personaje tiene vida, si tiene pocion de resucitacion utilizala. Ni vida ni pocion ==> Game over 
+
+        if (vida_personaje >= 1) { // falso
+             console.log("Personaje sigue vivo");
+             if (vida_personaje > 5) { 
+                alert("Esta saludable");
+             }  
+             else if (vida_personaje <= 5) { 
+                 alert("Estas bajo de vida");
+             }
+        } else {
+            if (pocion_resucitacion >= 1) { // falso
+                alert("Se uso pocion de resucitacion");
+                vida_personaje = 100;
+                pocion_resucitacion -= 1;
+            } else {
+                console.log("Game over");   
+            } 
+        }
+
+        console.log("Vida de personaje:", vida_personaje);
+        console.log("Pocion resucitacion:", pocion_resucitacion);
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+    </script>    
+</body>
+</html>
