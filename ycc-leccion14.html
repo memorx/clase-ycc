@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leccion 14 - YCC</title>
+</head>
+<body>
+    <script>
+        // Bucles: Repetir un codigo un numero x de veces hasta que una condicion se cumpla
+        // for (estado_inicial; condicion a cumplirse; estado_siguiente) { Codigo a ejecutar }
+
+        //var mi_nombre = "Guillermo Sanchez"
+
+        // for (var x = 0; x <= 1000 ; x-- ) { 
+        //     console.log("Hola, buenos dias " + mi_nombre +  " el valor de mi variable x es: ", x); 
+        // }
+
+        // console.log("Empezar el recorrido"); 
+
+        // // Mientras mi corredor haya corrido menos o igul a 10 kilometros - Bucle
+        // for (var recorrido = 0; recorrido <= 10; recorrido++  ) { //recorrido = 11
+        //     console.log("He recorrido " + recorrido + " kilometros");
+        // }
+
+        // console.log("Terminar el recorrido");
+
+        console.log("Comenzar a leer los valores de mi arreglo");
+
+                     //  0       1        2
+        var colores = ["rojo", "verde", "azul", "rosa", "negro", "blanco", 100, 200, true, false];
+        var cantidad = colores.length; // 3
+
+        for (var posicion = 0; posicion < cantidad; posicion++ ) { // x = 3
+            console.log("Mi posicion es: ", posicion); 
+            console.log("El valor de mi posicion en el arreglo es: ", colores[posicion]); // azul
+        }
+
+        console.log("Terminar de leer los valores de mi arreglo");
+
+    </script>
+</body>
+</html>
