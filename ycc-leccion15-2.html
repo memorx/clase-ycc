@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leccion 15-2 - YCC</title>
+</head>
+<body>
+
+    <script>
+        // Funcion con parametros
+        // Sintaxis: function nombreDeMiFuncion(parametros0,..... parametrosN);
+
+        // Crea una funcion con nombre Saludar, que esta utilizando un parametro(apellido)
+        function saludar(apellido="--Desconocido--") {
+            console.log("Hola", apellido);
+        }
+
+        saludar("Sanchez");
+        saludar("Ojeda");
+        saludar("Yupit");
+        saludar();
+
+        function despedirse(color="--Desconocido--", edad="--Desconocida--") {
+            console.log("Hasta luego, tu color favorito es: " + color + " y tu edad es: " + edad);
+        }
+
+        despedirse("Negro", 20);
+        despedirse("Rosa", 25);
+        
+        despedirse("Verde");
+        despedirse();
+
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>
