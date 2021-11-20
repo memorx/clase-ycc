@@ -5,6 +5,14 @@
 
 /* Parte principal*/
 
+body {
+    /* background-image: url('imagenes/imagen_fondo.jpeg'); */
+    /* background-repeat: no-repeat; */
+    /* background-repeat: no-repeat; */
+    /* background-attachment: fixed; */
+    /* background-size: cover; */
+}
+
 .image_full{
     display:block;
    }
